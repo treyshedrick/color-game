@@ -1,5 +1,6 @@
 var count = 0;
 var randDivNum = 0;
+var user = "";
 
 //generate random numbers between 102-255 with atleast one zero
 function colorarr()
@@ -49,11 +50,10 @@ function formValue(val)
     {
         randcolor();
         count += 1;
-        console.log(count);
     }
     else
     {
-        prompt("Game Over. Final Score: " + count);
+        user = prompt("Game Over. Final Score: " + count);
         count = 0;
         randcolor();
     }
