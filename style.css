@@ -18,3 +18,13 @@ input
     border-color: black;
     border-style: solid;
 }
+table
+{
+    text-align: center;
+    margin: auto;
+}
+td
+{
+    padding: 2px 50px;
+    border-style: solid;
+}
