@@ -54,8 +54,20 @@ function formValue(val)
     else
     {
         user = prompt("Game Over. Final Score: " + count);
-        count = 0;
-        randcolor();
+        while(user == "")
+        {
+            user = prompt("Please enter your name");
+        }
+            if(user != null)
+            {
+                //ajax post score to db
+                postScore(user,count);
+            }
+            else
+            {
+            count = 0;
+            randcolor();
+            }
     }
 }
 
