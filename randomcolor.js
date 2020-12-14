@@ -60,3 +60,4 @@ function formValue(val)
 }
 
 randcolor();
+displayScores();
