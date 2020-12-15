@@ -15,16 +15,6 @@ input
     border-style: solid;
     border-radius: 2%
 }
-table
-{
-    text-align: center;
-    margin: auto;
-}
-td
-{
-    padding: 2px 50px;
-    border-style: solid;
-}
 .container
 {
   max-width: 500px !important;
