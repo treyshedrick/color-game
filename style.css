@@ -2,21 +2,18 @@ div
 {
     text-align: center;
     padding: 50px;
-    margin: 25px 400px;
-    border-color: black;
-    border-style: solid;
 }
 input
 {
-    padding: 60px;
-    margin: 5px;
-    font-size: 0%;
+    padding: 50px;
+    font-size: 0% !important;
+    border-radius: 20%
 }
 .answers
 {
-    margin: 25px 400px;
     border-color: black;
     border-style: solid;
+    border-radius: 2%
 }
 table
 {
@@ -27,4 +24,8 @@ td
 {
     padding: 2px 50px;
     border-style: solid;
+}
+.container
+{
+  max-width: 500px !important;
 }
