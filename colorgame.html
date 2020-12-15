@@ -1,21 +1,29 @@
-<html>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel ="stylesheet" href="style.css"></style>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel ="stylesheet" href="style.css"></style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head> 
     <body>
-        <div class="rndmcolor"></div>
-        <div class="answers">
-            <input type="submit" value="1" class="rndmcolor" onclick="formValue(this)">
-            <input type="submit" value="2" class="rndmcolor" onclick="formValue(this)">
-            <input type="submit" value="3" class="rndmcolor" onclick="formValue(this)">
-            <input type="submit" value="4" class="rndmcolor" onclick="formValue(this)">
-            <input type="submit" value="5" class="rndmcolor" onclick="formValue(this)">
-            <input type="submit" value="6" class="rndmcolor" onclick="formValue(this)">
-            <input type="submit" value="7" class="rndmcolor" onclick="formValue(this)">
-            <input type="submit" value="8" class="rndmcolor" onclick="formValue(this)">
-            <input type="submit" value="9" class="rndmcolor" onclick="formValue(this)">
+        <div class="container">
+            <div class="row rndmcolor"></div>
+            <div class="row answers">
+                <input type="submit" value="1" class="col-4 rndmcolor" onclick="formValue(this)">
+                <input type="submit" value="2" class="col-4 rndmcolor" onclick="formValue(this)">
+                <input type="submit" value="3" class="col-4 rndmcolor" onclick="formValue(this)">
+                <input type="submit" value="4" class="col-4 rndmcolor" onclick="formValue(this)">
+                <input type="submit" value="5" class="col-4 rndmcolor" onclick="formValue(this)">
+                <input type="submit" value="6" class="col-4 rndmcolor" onclick="formValue(this)">
+                <input type="submit" value="7" class="col-4 rndmcolor" onclick="formValue(this)">
+                <input type="submit" value="8" class="col-4 rndmcolor" onclick="formValue(this)">
+                <input type="submit" value="9" class="col-4 rndmcolor" onclick="formValue(this)">
+            </div>
+            <div id="results"></div>
         </div>
-	<div id="results"></div>
     </body>
-<script type="text/javascript" src="ajax-scores.js"></script>
+    <!--<script type="text/javascript" src="ajax-scores.js"></script>-->
     <script type="text/javascript" src="randomcolor.js"></script>
 </html>
