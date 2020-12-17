@@ -62,6 +62,10 @@ function formValue(val)
             {
                 //ajax post score to db
                 postScore(user,count);
+		$('#results').empty();
+		displayScores();
+		count = 0;
+                randcolor();
             }
             else
             {
