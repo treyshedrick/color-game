@@ -14,7 +14,7 @@ $result = $conn->query($topscores);
 
 if ($result->num_rows > 0)
 {
-  $scoretable = "<table class=\"table table-hover table-dark table-striped\"><tr><td>Name</td><td>Score</td></tr>";
+  $scoretable = "<table class=\"table table-hover table-dark table-striped\"><tr><td>name</td><td>score</td></tr>";
   // Output highscores
   while($row = $result->fetch_assoc())
   {
