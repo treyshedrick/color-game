@@ -1,4 +1,4 @@
-# color-game
+# color-game(https://tshedrick.com/color-game/colorgame.html)
 ### JavaScript Color Guessing Game
 ##### Game made from Javascript that randomly generates a color to guess. Utilizes full stack development to insert scores into database and display high scores.
 
