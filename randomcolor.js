@@ -50,6 +50,7 @@ function formValue(val)
     {
         randcolor();
         count += 1;
+        $('#score').html("score: "+count.toString());
     }
     else
     {
@@ -62,14 +63,16 @@ function formValue(val)
             {
                 //ajax post score to db
                 postScore(user,count);
-		$('#results').empty();
-		displayScores();
-		count = 0;
+		        $('#results').empty();
+		        displayScores();
+                count = 0;
+                $('#score').html('new game');
                 randcolor();
             }
             else
             {
             count = 0;
+            $('#score').html('new game');
             randcolor();
             }
     }
