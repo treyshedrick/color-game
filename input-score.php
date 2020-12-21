@@ -1,12 +1,10 @@
 <?php
-if(isset($_POST['name']) && isset($_POST['score']))
-{
+if(isset($_POST['name']) && isset($_POST['score'])){
     include "credentials.php";
     $conn = new mysqli($servername, $username, $password, $dbname);
     
     // Check connection
-    if ($conn->connect_error)
-    {
+    if ($conn->connect_error){
       die("Unable to connect to database: " . $conn->connect_error);
     }
 
